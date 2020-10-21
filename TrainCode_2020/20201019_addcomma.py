@@ -15,7 +15,8 @@ def  addcomma(file,linecount):
             if  index == len(lines)-1: #当前行是否是最后一行
                 line =line
             else:
-                line = line + ','  # 字符串格式拼接
+                # line = line + ','  # 字符串格式拼接
+                format()
             print(line, end='')
             count = count +1
             if count >linecount :
